@@ -1,0 +1,19 @@
+{
+  "namespace": "chicago_cta",
+  "type": "record",
+  "name": "weather_value_schema",
+  "fields": [
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "status",
+      "type": {
+          "type": "enum",
+          "name": "weather_status_enum",
+          "symbols": ["sunny", "partly_cloudy", "cloudy", "windy", "precipitation"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "namespace": "chicago_cta",
+  "type": "record",
+  "name": "weather_key_schema",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long"
+    }
+  ]
+}
